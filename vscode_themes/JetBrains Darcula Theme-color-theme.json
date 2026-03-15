@@ -1663,7 +1663,7 @@
         "keyword.operator.assignment.go"
       ],
       "settings": {
-        //"foreground": "#e5c07b"
+        "foreground": "#ecc58a"
       }
     },
     {
@@ -1673,7 +1673,7 @@
         "keyword.operator.address.go"
       ],
       "settings": {
-        //"foreground": "#CC7832"
+        "foreground": "#D1873F"
       }
     },
     {
@@ -1682,7 +1682,7 @@
         "entity.name.type.go"
       ],
       "settings": {
-        "foreground": "#A9B7C6"
+        "foreground": "#ecc58a"
       }
     },
     {
@@ -1692,7 +1692,7 @@
         "entity.alias.import.go"
       ],
       "settings": {
-        "foreground": "#AFBF7E"
+        "foreground": "#87CEFA"
       }
     },
     {
@@ -1701,7 +1701,7 @@
         "support.function.go"
       ],
       "settings": {
-        "foreground": "#B09D79"
+        "foreground": "#FFD070"
       }
     },
     {
@@ -1711,7 +1711,7 @@
         "constant.other.rune.go"
       ],
       "settings": {
-        "foreground": "#6A8759"
+        "foreground": "#719661"
       }
     },
     {
@@ -1721,7 +1721,7 @@
         "punctuation.terminator.go"
       ],
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#D1873F"
       }
     },
     {
@@ -1730,7 +1730,35 @@
         "support.function.builtin.go"
       ],
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#8888D6"
+      }
+    },
+    {
+      "name": "Go interface and struct",
+      "scope": [
+        "entity.name.type.struct.go",
+        "entity.name.type.interface.go"
+      ],
+      "settings": {
+        "foreground": "#ecc58a"
+      }
+    },
+    {
+      "name": "Go method receiver",
+      "scope": [
+        "variable.parameter.receiver.go"
+      ],
+      "settings": {
+        "foreground": "#b6bfca"
+      }
+    },
+    {
+      "name": "Go constant",
+      "scope": [
+        "constant.other.go"
+      ],
+      "settings": {
+        "foreground": "#73A0C7"
       }
     },
     {
